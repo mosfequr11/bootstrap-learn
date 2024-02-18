@@ -55,7 +55,7 @@ a:hover {
   left: 0;
   top: 0;
   height: 100%;
-  width: 52%;
+  width: 60%;
   background-size: cover;
 }
 
@@ -74,17 +74,57 @@ a:hover {
 }
 
 h2.absolute-text {
+  color: #000000;
+}
+
+.contact-form input {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.contact-form textarea {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  height: 60px;
+}
+
+input[type=submit] {
+  width: auto;
+  background: #ffffff;
+  padding: 10px 20px;
+}
+
+.contact-form button {
+  width: auto;
+  background: #ffffff;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.appoinment-text {
+  padding-left: 150px;
+  padding-top: 90px;
+}
+
+.appoinment-text p {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.appoinment-text ul li {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+a.box-btn {
+  display: inline-block;
   color: #ffffff;
-}
-
-input {
-  width: 100%;
-  margin: 10px;
-  padding: 10px;
-}
-
-textarea {
-  width: 100%;
-  margin: 10px;
-  padding: 10px;
+  background: #31d6be;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 45px;
+  margin-top: 30px;
 }
